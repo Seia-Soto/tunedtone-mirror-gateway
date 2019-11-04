@@ -1,0 +1,31 @@
+{
+  "name": "gateway",
+  "description": "This gateway server provides a common RESTful API instead of WebSocket implementation of a mirror server.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunedtone/gateway.git"
+  },
+  "author": "Seia-Soto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tunedtone/gateway/issues"
+  },
+  "homepage": "https://github.com/tunedtone/gateway#readme",
+  "dependencies": {
+    "restify": "^8.4.0",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
