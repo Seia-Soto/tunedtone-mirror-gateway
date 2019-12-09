@@ -1,6 +1,6 @@
 # Tunedtone/mirror-gateway
 
-This gateway server provides a common RESTful API instead of WebSocket implementation of a mirror server.
+Roundrobin loadbalancer.
 
 ## Table of Contents
 
@@ -11,7 +11,9 @@ This gateway server provides a common RESTful API instead of WebSocket implement
 
 # Concept
 
-Using WebSockets directly to the application source may make the source dirty. Instead of WebSocket, this gateway application provides RESTful API of the mirror server to help the development process. __However, this implementation is not always necessary. You can use load balancers alternatively.__
+Roundrobin loadbalancer. __This implementation is not always necessary. You can use load balancers alternatively.__
+
+- [Reference](https://github.com/tunedtone/mirror)
 
 # License
 

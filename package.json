@@ -1,6 +1,6 @@
 {
   "name": "gateway",
-  "description": "This gateway server provides a common RESTful API instead of WebSocket implementation of a mirror server.",
+  "description": "Roundrobin loadbalancer.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tunedtone/gateway.git"
+    "url": "git+https://github.com/tunedtone/mirror-gateway.git"
   },
   "author": "Seia-Soto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tunedtone/gateway/issues"
+    "url": "https://github.com/tunedtone/mirror-gateway/issues"
   },
-  "homepage": "https://github.com/tunedtone/gateway#readme",
+  "homepage": "https://github.com/tunedtone/mirror-gateway#readme",
   "dependencies": {
-    "restify": "^8.4.0",
-    "ws": "^7.2.0"
+    "request": "^2.88.0",
+    "restify": "^8.4.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
